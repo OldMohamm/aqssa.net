@@ -1,5 +1,5 @@
 ---
-name: Gavin the Tiger
+name: MTP8500Ex
 description_markdown: >-
   Gavin the tiger was brought up vegan. His favorite meal is chickpea salad with
   a lemon juice dressing.
@@ -8,14 +8,7 @@ description_markdown: >-
 
   Slim Fit, 5oz 100% Cotton T-Shirt.
 garment_type:
-price: '9.00'
 sku: tiger
-stock: 10
-sizes:
-  - Small
-  - Medium
-  - Large
-  - XL
 styles:
   - name: Black
     color: '#000000'
