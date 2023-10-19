@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Fur
+title: Al-Aqssa
 url: "http://turquoise-rook.cloudvent.net/"
 baseurl:
 google_analytics_key:
@@ -11,12 +11,11 @@ snipcart_currency: "usd"
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Fur t-shirt store
+description: Al-Aqssa
 author:
-  name: fur
-  email: fur@example.com
-  twitter: fur # twitter username without the @ symbol
-  phone: "+1 23456789"
+  name: Al-Aqssa
+  email: kareem@aqssa.net
+  phone: "+96407730493349"
 social:
   name: Fur Template
   links:
