@@ -13,14 +13,17 @@ styles:
     image: /images/products/MTP8500Ex/MTP8500Ex.jpg
   - name: Red
     color: '#ff0000'
-    image: /images/products/tiger/blue.jpg
+    image: /images/products/MTP8500Ex/MTP8500Ex_Back.jpg
   - name: Red
     color: '#ff0000'
-    image: /images/products/tiger/clay.jpg
+    image: /images/products/MTP8500Ex/MTP8500Ex_Three-Quarter_Right.jpg
   - name: Red
     color: '#ff0000'
-    image: /images/products/tiger/cream.jpg
+    image: /images/products/MTP8500Ex/MTP8500Ex_Three_Quarter_Right_Back.jpg
   - name: Red
     color: '#ff0000'
-    image: /images/products/tiger/green.jpg
+    image: /images/products/MTP8500Ex/MTP8500Ex_Top.jpg
+  - name: Red
+    color: '#ff0000'
+    image: /images/products/MTP8500Ex/MTP8500Ex_Bottom.jpg
 ---
