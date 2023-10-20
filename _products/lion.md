@@ -10,17 +10,17 @@ sku: tiger
 styles:
   - name: Red
     color: '#ff0000'
-    image: /images/products/MTP8500Ex.jpg
+    image: /images/products/MTP8500Ex/MTP8500Ex.jpg
   - name: Red
-    color: '#39589e'
+    color: '#ff0000'
     image: /images/products/tiger/blue.jpg
   - name: Red
-    color: '#9c5145'
+    color: '#ff0000'
     image: /images/products/tiger/clay.jpg
   - name: Red
     color: '#ff0000'
     image: /images/products/tiger/cream.jpg
-  - name: Green
-    color: '#67aa79'
+  - name: Red
+    color: '#ff0000'
     image: /images/products/tiger/green.jpg
 ---
