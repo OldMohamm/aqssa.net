@@ -9,18 +9,9 @@ garment_type:
 sku: tiger
 styles:
   - name: Black
-    color: '#'
+    color: '#000000'
     image: /images/products/
   - name: Black
     color: '#000000'
     image: /images/products/
-  - name: Red
-    color: '#000000'
-    image: /images/products/tiger/clay.jpg
-  - name: Red
-    color: '#ff0000'
-    image: /images/products/tiger/cream.jpg
-  - name: Red
-    color: '#ff0000'
-    image: /images/products/tiger/green.jpg
 ---
