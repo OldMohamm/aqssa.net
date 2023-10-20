@@ -10,7 +10,7 @@ sku: tiger
 styles:
   - name: Black
     color: '#000000'
-    image: /images/products/tiger/black.jpg
+    image: /images/products/MTP8500Ex.jpg
   - name: Blue
     color: '#39589e'
     image: /images/products/tiger/blue.jpg
