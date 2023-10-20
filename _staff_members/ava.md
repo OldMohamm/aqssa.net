@@ -1,4 +1,4 @@
 ---
 name: Abdu-ALkareem
-image_path: https://cdn.freebiesupply.com/logos/large/2x/motorola-6-logo-png-transparent.png
+image_path: https://logowik.com/content/uploads/images/t_motorola-m-symbol-blue5126.logowik.com.webp
 ---
