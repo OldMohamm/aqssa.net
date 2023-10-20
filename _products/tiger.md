@@ -1,10 +1,15 @@
 ---
-name: MTP8500Ex
+name: MXP600
 description_markdown: >-
-  The MTP8000Ex Series TETRA ATEX radios deliver powerful audio, enhanced coverage, extended battery life, greater ruggedness, advanced ergonomics and increased usability, so personnel working in the most extreme environments have the ability to work safer, work smarter and work anywhere. Meeting the latest ATEX and IECEx standard, this next generation of TETRA ATEX radios has been specifically designed for end-users who work in areas with potentially explosive gases or chemical vapours, flammable liquids or combustible dust.
+  MXP600 is a rugged, lightweight, yet fully capable TETRA portable radio that includes the latest Motorola audio technology to provide an industry-leading user experience, The Motorola MXP600 is the new addition in Motorola’s TETRA portfolio, and was designed to provide high-level communications technology to those that need it most, namely front line workers such as emergency services personnel, governmental departments, transport services and the military.
 
 
-  The MTP8500Ex portable radio delivers powerful features and user benefits, in a form factor that features a limited keypad ideally suited for operation while wearing heavy gloves. Offering innovative features such as top display, t-bar shaped grip and color display, this TETRA ATEX radio is optimized for use without getting in your way.
+  What are the benefits of the Motorola MXP600?
+The Motorola MXP600 benefits from innovative audio technology, including the below:
+
+* LMR and Wi-Fi Over-the-Air Programming
+* HD Voice Ready Capabilities
+* Bluetooth® 5.0
 garment_type:
 sku: tiger
 styles:
