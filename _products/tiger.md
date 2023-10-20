@@ -10,8 +10,8 @@ sku: tiger
 styles:
   - name: Black
     color: '#000000'
-    image: /images/products/
+    image: /images/products/MXP600/MXP600.jpg
   - name: Black
     color: '#000000'
-    image: /images/products/
+    image: /images/products/MXP600/mx600-back.jpg
 ---
