@@ -8,17 +8,17 @@ description_markdown: >-
 garment_type:
 sku: tiger
 styles:
-  - name: Black
-    color: '#000000'
+  - name: Red
+    color: '#ff0000'
     image: /images/products/MTP8500Ex.jpg
-  - name: Blue
+  - name: Red
     color: '#39589e'
     image: /images/products/tiger/blue.jpg
-  - name: Clay
+  - name: Red
     color: '#9c5145'
     image: /images/products/tiger/clay.jpg
-  - name: Cream
-    color: '#dfd3c2'
+  - name: Red
+    color: '#ff0000'
     image: /images/products/tiger/cream.jpg
   - name: Green
     color: '#67aa79'
