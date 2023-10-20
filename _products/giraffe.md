@@ -1,23 +1,26 @@
 ---
-name: Gerald the Giraffe
+name: MTP8500Ex
 description_markdown: >-
-  Gerald the giraffe isn't particularly spiritual but he has a long neck which
-  can help you in a pinch.
+  The MTP8000Ex Series TETRA ATEX radios deliver powerful audio, enhanced coverage, extended battery life, greater ruggedness, advanced ergonomics and increased usability, so personnel working in the most extreme environments have the ability to work safer, work smarter and work anywhere. Meeting the latest ATEX and IECEx standard, this next generation of TETRA ATEX radios has been specifically designed for end-users who work in areas with potentially explosive gases or chemical vapours, flammable liquids or combustible dust.
 
 
-
-  Slim Fit, 5oz 100% Cotton T-Shirt.
+  The MTP8500Ex portable radio delivers powerful features and user benefits, in a form factor that features a limited keypad ideally suited for operation while wearing heavy gloves. Offering innovative features such as top display, t-bar shaped grip and color display, this TETRA ATEX radio is optimized for use without getting in your way.
 garment_type:
-price: '9.00'
-sku: giraffe
-stock: 10
-sizes:
-  - Small
-  - Medium
-  - Large
-  - XL
+sku: tiger
 styles:
+  - name: Black
+    color: '#000000'
+    image: /images/products/MTP8500Ex.jpg
+  - name: Blue
+    color: '#39589e'
+    image: /images/products/tiger/blue.jpg
+  - name: Clay
+    color: '#9c5145'
+    image: /images/products/tiger/clay.jpg
+  - name: Cream
+    color: '#dfd3c2'
+    image: /images/products/tiger/cream.jpg
   - name: Green
     color: '#67aa79'
-    image: /images/products/giraffe/green.jpg
+    image: /images/products/tiger/green.jpg
 ---
