@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dark Mode Toggle</title>
+    <style>
+        :root {
+            --background-color: white;
+            --text-color: black;
+            --link-color: blue;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --background-color: black;
+                --text-color: white;
+                --link-color: yellow;
+            }
+        }
+        body {
+            background-color: var(--background-color);
+            color: var(--text-color);
+            transition: background-color 0.5s, color 0.5s;
+        }
+        a {
+            color: var(--link-color);
+        }
+    </style>
+</head>
+<body>
+    <h1>Dark Mode Toggle</h1>
+    <p>This is a simple example of how you can implement a dark mode toggle using HTML and CSS.</p>
+    <a href="#">Link</a>
+    <button id="darkModeToggle" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+    <script>
+        function toggleDarkMode() {
+            var body = document.body;
+            body.classList.toggle("dark-mode");
+        }
+    </script>
+</body>
+</html>
