@@ -27,4 +27,46 @@ subtitle: When Experience Matters
 			</ul>
 		</div>
 	</section>
+	<html lang="en">
+	<head>
+	  <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <title>Dark Mode Toggle</title>
+	  <style>
+		body {
+		  background-color: white;
+		  color: black;
+		  transition: background-color 0.5s, color 0.5s;
+		}
+		.dark-mode {
+		  background-color: black;
+		  color: white;
+		}
+	  </style>
+	</head>
+	<body>
+	  <h1>Dark Mode Toggle</h1>
+	  <p>This is a simple example of how you can implement a dark mode toggle using HTML and CSS.</p>
+	  <a href="index.html">Home</a>
+	  <div class="dark-mode-toggle">
+		<input type="checkbox" id="darkModeToggle" class="checkbox">
+		<label for="darkModeToggle" class="label">
+		  <i class="fas fa-moon"></i>
+		  <i class="fas fa-sun"></i>
+		  <div class="ball"></div>
+		</label>
+	  </div>
+	  <script>
+		var checkbox = document.querySelector('input[type="checkbox"]');
+		checkbox.addEventListener('change', function() {
+		  if(checkbox.checked) {
+			document.body.classList.add('dark-mode');
+		  } else {
+			document.body.classList.remove('dark-mode');
+		  }
+		});
+	  </script>
+	</body>
+	</html>
+
 </div>
