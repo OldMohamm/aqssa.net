@@ -1,40 +1,104 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Dark Mode Toggle</title>
-    <style>
-        :root {
-            --background-color: white;
-            --text-color: black;
-            --link-color: blue;
-        }
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --background-color: black;
-                --text-color: white;
-                --link-color: yellow;
-            }
-        }
-        body {
-            background-color: var(--background-color);
-            color: var(--text-color);
-            transition: background-color 0.5s, color 0.5s;
-        }
-        a {
-            color: var(--link-color);
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dark Mode Toggle</title>
+  <style>
+    :root {
+      --background-color: white;
+      --text-color: black;
+      --link-color: blue;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background-color: black;
+        --text-color: white;
+        --link-color: yellow;
+      }
+    }
+    body {
+      background-color: var(--background-color);
+      color: var(--text-color);
+      transition: background-color 0.5s, color 0.5s;
+    }
+    a {
+      color: var(--link-color);
+    }
+    .dark-mode-toggle {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1;
+      font-size: 24px;
+    }
+    .dark-mode-toggle input {
+      display: none;
+    }
+    .dark-mode-toggle .label {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: #999;
+      position: relative;
+      cursor: pointer;
+      transition: background-color 0.5s;
+    }
+    .dark-mode-toggle .label .ball {
+      position: absolute;
+      top: 4px;
+      left: 4px;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: #fff;
+      box-shadow: 0 0 5px rgba(0,0,0,0.2);
+      transition: transform 0.5s;
+    }
+    .dark-mode-toggle .checkbox:checked + .label {
+      background: #333;
+    }
+    .dark-mode-toggle .checkbox:checked + .label .ball {
+      transform: translateX(16px);
+    }
+    .dark-mode-toggle .fas {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #f8f8f8;
+    }
+  </style>
 </head>
 <body>
-    <h1>Dark Mode Toggle</h1>
-    <p>This is a simple example of how you can implement a dark mode toggle using HTML and CSS.</p>
-    <a href="#">Link</a>
-    <button id="darkModeToggle" onclick="toggleDarkMode()">Toggle Dark Mode</button>
-    <script>
-        function toggleDarkMode() {
-            var body = document.body;
-            body.classList.toggle("dark-mode");
+  <h1>Dark Mode Toggle</h1>
+  <p>This is a simple example of how you can implement a dark mode toggle using HTML and CSS.</p>
+  <a href="#">Link</a>
+  <div class="dark-mode-toggle">
+    <input type="checkbox" id="darkModeToggle" class="checkbox">
+    <label for="darkModeToggle" class="label">
+      <i class="fas fa-moon"></i>
+      <i class="fas fa-sun"></i>
+      <div class="ball"></div>
+    </label>
+  </div>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var checkbox = document.querySelector('input[type="checkbox"]');
+      var icon = document.querySelector('.dark-mode-toggle i');
+      
+      checkbox.addEventListener('change', function() {
+        if(checkbox.checked) {
+          document.documentElement.setAttribute('data-theme', 'dark');
+          // ... other code to apply dark mode
+        } else {
+          document.documentElement.setAttribute('data-theme', 'light');
+          // ... other code to apply light mode
         }
-    </script>
+      });
+    });
+  </script>
 </body>
 </html>
